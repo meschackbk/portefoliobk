@@ -1,0 +1,500 @@
+body
+{
+    
+        background-attachment: fixed;
+		background-color: #272833;
+		background-image: url('/img/fonds2.jpg');
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.15em 0.5em 0 rgba(0, 0, 0, 0.25) none;
+		height: 100vh;
+		position: relative;
+		text-align: center;
+		z-index: 21;
+        color: white;
+        margin: 0;   
+    
+}
+
+#page-body
+{
+    
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.25);
+    cursor: default;
+    left: 0;
+    line-height: 3.5em;
+    width: 10Ovh;
+    padding-top: 3.5em;
+}
+/*header*/
+header
+{
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.25);
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    
+}
+
+
+    ul
+    {
+        display: flex;
+        
+    }
+    
+    nav, footer
+    {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    ul li
+    {
+        list-style: none;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    .nav-a:hover
+    {
+        background-color: #EE7732;
+        border: solid 2px #EE7732;
+        border-radius: 5px;
+    }
+.logo-nav
+{
+    width: 32px;
+    height: 32px;
+    padding-left: 16px;
+    padding-top: 5px;
+    margin-bottom: 16px;
+    
+}
+
+ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer
+{
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.25);
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+
+/*Propriétés pages*/
+.page_all
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+#container-main
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.main-txt1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.9em;
+    align-items: center;
+    height: 100vh;
+    margin-left: 5px;
+}
+    .nom
+    {
+        line-height: 0,1;
+        text-align: left;
+    }
+    .accroche
+    {
+        text-align: center;
+    }
+    .main-txt1-a
+    {
+        border: solid 1px red;
+        border-radius: 5px;
+        height: 40px;
+        width: 140px;
+        background-color: red;
+        color:antiquewhite;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-txt1-a:hover
+    {
+        background-color: #EE7732;
+        border: solid 2px #EE7732;
+
+    }
+.main-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_bk
+{
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+/*pages ma formation*/
+
+.containeur-all
+{
+    padding-top: 3.5em;
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.25);
+    left: 16px;
+    padding-bottom: 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+.containeur-all1
+{
+    padding-top: 3.5em none;
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.25);
+    padding-bottom: 0;
+    line-height: 0;
+    height: 280%;
+
+}
+.formations
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+    flex-direction: column;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+    .formations1
+    {
+        background: #EE7732;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+
+    }
+    .formations1:hover
+    {
+        transform:translate(-5px);
+    }
+
+    .img-formation
+    {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+
+    .formations1 h3
+    {
+        line-height: 0.9;
+    }
+
+    /*page_contact*/
+    .containeur-contact
+    {
+        width: 710px;
+        height: 696px;
+        background-color: #EE7732;
+        border-radius: 10px;
+        padding: 32px 32px 32px 32px;
+        color: black;
+        margin-top: 32px;
+
+        
+    }
+        .textcompt
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-left: 32px;
+            line-height: 0%;
+            font-size: 25px;
+
+
+        }
+
+        .textcomptf
+        {
+           font-size:30px;
+            padding-bottom: 16px;
+            padding-top: 16px;
+            background-color: #EE7732;
+            border-radius: 10px;
+            width: 73%
+        }
+
+        .textcompt1
+        {
+            font-size:30px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            background-color: #EE7732;
+            border-radius: 10px;
+            margin-left: 66px;
+            margin-right: 66px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+
+
+        }
+
+    
+
+        .containeur-contact
+        {
+            
+            height: 100vh;
+        }
+
+    .containeur-all
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    }
+        .section-description
+        {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .form1-bloc
+        {
+         width: 704px;
+         height: 72px;
+         text-align: left;
+         display: flex;
+         justify-content: space-between;
+         
+
+        }
+        .form1-1
+        {
+            width: 336px;
+            height: 72px;
+    
+
+        }
+
+            .form1-txt
+            {
+                width: 336px;
+                height: 48px;
+                opacity: 100%;
+                background-color: antiquewhite;
+                border: solid 1px black;
+                border-radius: 10px;
+
+            }
+            .form1-txt11
+            {
+              width: 704px;
+                height: 48px;
+                opacity: 100%;
+                background-color: antiquewhite;
+                border: solid 1px black;
+                border-radius: 10px;
+                margin-top: 8px;
+                
+            }
+            .nm
+
+            {
+                padding-right: 32px;
+            }
+            .form1-txt1
+            {
+                width: 336px;
+                height: 16px;
+                font-size: 20px;
+                text-align: left;
+
+            }
+            .form1-txt2
+            {
+                text-align: left;
+            }
+
+            .form1-2
+            {
+                display: flex;
+                flex-direction: column;
+                margin-top: 16px;
+            }
+            
+
+        .section-description1, .section-description2     
+        {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-left: 20px;
+            padding-bottom: 16px;
+        }
+        
+
+        p, label, h3
+        {
+            font-size: 20px;
+        }
+
+        .form1-txt12
+            {
+              width: 704px;
+                height: 80px;
+                opacity: 100%;
+                background-color: antiquewhite;
+                border: solid 1px black;
+                border-radius: 10px;
+                margin-top: 8px;
+                
+            }
+
+            .section-description4
+            {
+                display: flex;
+                flex-direction: column;
+                margin-top: 16px;
+                justify-content: center;
+                align-items: center;
+            }
+            
+             .btn_envoyer
+                {
+                    border: solid 1px red;
+                    border-radius: 5px;
+                    height: 40px;
+                    width: 140px;
+                    background-color: red;
+                    color:antiquewhite;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 16px;
+                }
+                    .btn_envoyer:hover
+                    {
+                        background-color: rgba(39, 40, 51, 0.965);
+                        border: solid 2px #EE7732;
+
+                    }
+
+                    .all-ap
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: left;
+                        align-items: left;
+                        text-align: left;
+                        line-height: 1;
+                        margin-right: 64px;
+                        margin-left: 64px;
+                    }
+
+                    .Mesformations
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        line-height: 1;
+                        text-align: left;
+                        margin-right: 64px;
+                        margin-left: 64px;
+                        text-align: left;
+                        
+            
+                    }
+
+                    .Mesformations1
+                    {
+                        flex-direction: column;
+                    }
+                    .Btn_Bloc
+                    {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 16px 16px 16px 16px;
+                    }
+                    .Btn_Download
+                    {
+                        border: solid 1px red;
+                        border-radius: 5px;
+                        height: 40px;
+                        width: 140px;
+                        background-color: red;
+                        color:antiquewhite;
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: Center;
+                    }
+                    .Btn_Download:hover
+                    {
+                        background-color: #EE7732;
+        border: solid 2px #EE7732;
+                    }
