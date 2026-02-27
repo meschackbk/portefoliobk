@@ -36,7 +36,8 @@ body
 		text-align: center;
 		z-index: 21;
         color: white;
-        margin: 0;   
+        margin: 0;
+		font-family: 'Trebuchet MS', Arial, sans-serif;
     
 }
 
@@ -522,4 +523,5 @@ footer
                         background-color: #EE7732;
         border: solid 2px #EE7732;
                     }
+
 
