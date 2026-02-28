@@ -89,6 +89,7 @@ header
 	li
 	{
 		font-family: 'Trebuchet MS', Arial, sans-serif;
+		line-height: 1.5;
 	
 	}
     
@@ -537,6 +538,7 @@ footer
                         background-color: #EE7732;
         border: solid 2px #EE7732;
                     }
+
 
 
 
