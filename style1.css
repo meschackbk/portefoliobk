@@ -82,16 +82,16 @@ header
         list-style: none;
         padding-bottom: 10px;
         padding-left: 10px;
-        padding-right: 10px; 
-		font-family: 'Trebuchet MS', Arial, sans-serif;
+        padding-right: 10px;   
     }
 
-	li
+	.li
 	{
+		
 		font-family: 'Trebuchet MS', Arial, sans-serif;
-		line-height: 1.5;
-	
+        line-height: 1.5;
 	}
+
     
     nav, footer
     {
@@ -538,6 +538,7 @@ footer
                         background-color: #EE7732;
         border: solid 2px #EE7732;
                     }
+
 
 
 
